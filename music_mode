@@ -1,0 +1,13 @@
+echo "Do you want to turn on or off ?" |dmenu
+a=`cat /home/archman/switch |dmenu`
+
+if [ $a = "ON" ]
+then
+mpd &&
+terminator -e ncmpcpp &
+notify-send "Success" 
+else
+pkill mpd && pkill ncmpcpp && notify-send "Successfully
+closed music system" && exit
+notify-send "Already closed"
+fi

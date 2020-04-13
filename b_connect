@@ -1,0 +1,6 @@
+sudo systemctl start bluetooth
+sudo rkfill unblock bluetooth
+pulseaudio -k && pulseaudio --start 
+pactl load-module module-bluetooth-discover
+blueman-manager &
+

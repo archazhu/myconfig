@@ -1,0 +1,12 @@
+sudo rfkill unblock wifi
+WIFI_NETWORK=`nmcli device wifi |awk '{print $2}'|dmenu`
+notify-send "Connecting to $WIFI_NETWORK"
+nmcli device wifi connect $WIFI_NETWORK 
+t=$?
+if [ $t -eq 0 ] 
+then ping -c1 -W 2 8.8.8.8 && notify-send "Successfully connected to
+$WIFI_NETWORK" && exit
+nmcli device wifi connect $WIFI_NETWORK password `dmenu` && notify-send "Successfully connected to $WIFI_NETWORK" && exit
+notify-send "Wrong pass"
+else notify-send "Some error please retry"
+fi
