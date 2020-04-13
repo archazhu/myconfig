@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/kh1r4gsr30m31.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#351f19",
+        "foreground": "#d2e2d8",
+        "cursor": "#d2e2d8"
+    },
+    "colors": {
+        "color0": "#351f19",
+        "color1": "#709793",
+        "color2": "#7FC0BA",
+        "color3": "#98A7A0",
+        "color4": "#E1AA99",
+        "color5": "#A0C8B8",
+        "color6": "#EDDEAB",
+        "color7": "#d2e2d8",
+        "color8": "#939e97",
+        "color9": "#709793",
+        "color10": "#7FC0BA",
+        "color11": "#98A7A0",
+        "color12": "#E1AA99",
+        "color13": "#A0C8B8",
+        "color14": "#EDDEAB",
+        "color15": "#d2e2d8"
+    }
+}

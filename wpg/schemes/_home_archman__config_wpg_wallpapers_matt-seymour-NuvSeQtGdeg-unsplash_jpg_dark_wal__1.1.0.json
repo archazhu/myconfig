@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/matt-seymour-NuvSeQtGdeg-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c0c09",
+        "foreground": "#e0c9c4",
+        "cursor": "#e0c9c4"
+    },
+    "colors": {
+        "color0": "#1c0c09",
+        "color1": "#D36659",
+        "color2": "#75896D",
+        "color3": "#B1915C",
+        "color4": "#D69666",
+        "color5": "#BD728C",
+        "color6": "#ADA398",
+        "color7": "#e0c9c4",
+        "color8": "#9c8c89",
+        "color9": "#D36659",
+        "color10": "#75896D",
+        "color11": "#B1915C",
+        "color12": "#D69666",
+        "color13": "#BD728C",
+        "color14": "#ADA398",
+        "color15": "#e0c9c4"
+    }
+}

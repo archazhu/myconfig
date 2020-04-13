@@ -1,0 +1,189 @@
+[bar/top]
+width = 100%
+height = 25
+offset-x = 0
+offset-y = 1
+;bottom = true
+radius = 6.0
+tray-offset-x = -4
+background = #05111A
+foreground = #e0cfde
+
+underline-size = 2
+underline-color = #eee
+
+spacing = 1
+padding-left = 0
+padding-right = 0
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = Fira Code Medium:size=10;0
+font-1 = FontAwesome5Free:style=Solid:size=9;1
+font-2 = FontAwesome5Free:style=Regular:size=9;1
+
+modules-left = bspwm
+modules-center = xwindow
+modules-right = wlan battery volume date powermenu 
+
+tray-position = right
+tray-padding = 2
+;tray-background = #66333333
+
+wm-restack = bspwm
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+; MODULES
+
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = I;H
+ws-icon-1 = II;@
+ws-icon-2 = III;$
+ws-icon-3 = IV;!!
+ws-icon-4 = V;M
+ws-icon-default =^ 
+
+format = <label-state> <label-mode>
+
+label-focused = %icon%
+label-focused-background = #B793B4
+label-focused-foreground = #05111A
+label-focused-underline= #c584e4
+label-focused-padding = 4
+
+label-occupied = %icon%
+label-occupied-padding = 4
+
+label-urgent = %icon%
+label-urgent-padding = 4
+
+label-empty = %icon%
+label-empty-foreground = #44ffffff
+label-empty-padding = 6
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:70:...%
+label-padding = 4
+
+[module/date]
+type = internal/date
+
+; Seconds to sleep between updates
+interval = 1.0
+
+; See "man date" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+date = %a %b %d,
+
+; Optional time format
+time = %H:%M
+
+; if `date-alt` or `time-alt` is defined, clicking
+; the module will toggle between formats
+date-alt =  %d %B %Y
+time-alt = %H:%M:%S
+
+label = %date% %time%
+format =  <label>
+;format-background = #D08C7D
+format-background = #D08C7D
+;format-foreground = #333
+format-foreground = #05111A
+format-padding = 3
+
+[module/padding]
+type = custom/text
+content =
+content-foreground = #00000000
+content-background = #55000000
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 1.0
+label-connected =  %essid% %upspeed:9% %downspeed:9%
+
+[module/volume]
+type = internal/alsa
+
+format-volume = <ramp-volume>  <label-volume>
+format-muted = <label-muted>
+label-volume = %percentage%
+label-muted = 0% 
+label-muted-foreground = #aaa
+format-volume-padding = 3
+format-muted-padding = 3
+ramp-volume-0 =  
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+battery = BAT0
+adapter = AC0
+
+poll-interval = 5
+
+format-charging = <animation-charging>  <label-charging> 
+format-discharging = <ramp-capacity>  <label-discharging>
+format-full = <ramp-capacity>  <label-full>
+label-charging = %percentage%
+label-discharging = %percentage%
+label-full = %percentage%
+format-charging-padding = 3
+format-discharging-padding = 3
+format-full-padding = 3
+format-discharging-background = #86BDBA
+format-discharging-foreground = #000000
+format-charging-background =#3DD657
+format-charging-foreground = #000000
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = >
+animation-charging-1 = >>
+animation-charging-2 = >>>
+animation-charging-3 = >>>>
+animation-charging-4 = >>>>>
+animation-charging-framerate = 750
+
+[module/powermenu]
+type = custom/menu
+
+label-open = Q 
+label-open-background = #581845
+;label-open-foreground = #fff
+label-close = cancel
+label-close-background = #dd0000
+;label-close-foreground = #fff
+label-open-padding = 4
+
+label-close-padding = 3
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+menu-0-0-padding = 3
+menu-0-1-padding = 3
+
+menu-1-0 = reboot?
+menu-1-0-exec = reboot
+menu-1-0-padding = 3
+
+menu-2-0 = power off?
+menu-2-0-exec = shutdown now
+menu-2-0-padding = 3
+

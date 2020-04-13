@@ -1,0 +1,24 @@
+sw_volume: 100
+audio_device_state:1:alsa for audio soundcard
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 0
+time: 3.485000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Downloaded/500 Miles - Inside Llewyn Davis.mp3
+1:Downloaded/Alan Walker - Faded.mp3
+2:Downloaded/Alan Walker, K-391 & Emelie Hollow - Lily (Lyrics).mp3
+3:Downloaded/I'll Be There For You (Friends Theme) - The Rembrandts (Boyce Avenue cover) on Spotify & Apple.mp3
+4:Downloaded/K'NAAN - Wavin' Flag (Coca-Cola Celebration Mix).mp3
+5:Downloaded/Young Artists For Haiti - Wavin' Flag.mp3
+6:Downloaded/Passenger _ Survivors (Official Video).mp3
+7:col106_material_study/sort_1_audio_1585397665970.m4v
+8:Downloaded/【Tokyo Ghoul】 Unravel (Cover by OR3O ft. RichaadEB) 東京喰種-トーキョーグール- Op.mp3
+playlist_end

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/good.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#090B12",
+        "foreground": "#c9bdc4",
+        "cursor": "#c9bdc4"
+    },
+    "colors": {
+        "color0": "#090B12",
+        "color1": "#58566A",
+        "color2": "#A86E6F",
+        "color3": "#DF8D72",
+        "color4": "#767385",
+        "color5": "#8E7989",
+        "color6": "#7E818F",
+        "color7": "#c9bdc4",
+        "color8": "#8c8489",
+        "color9": "#58566A",
+        "color10": "#A86E6F",
+        "color11": "#DF8D72",
+        "color12": "#767385",
+        "color13": "#8E7989",
+        "color14": "#7E818F",
+        "color15": "#c9bdc4"
+    }
+}

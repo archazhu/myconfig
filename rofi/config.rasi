@@ -1,0 +1,19 @@
+configuration {
+    // settings
+    eh: 1;
+    lines: 5;
+    columns: 1;
+    width: 30;
+    padding: 20;
+    font: "Inconsolata Bold 14";
+    scrollbar-width: 0;
+    show-match: false;
+    show-icons: true;
+
+    // colors
+    color-window: "#EEEEEE, #EEEEEE, #EEEEEE";
+    color-normal: "#EEEEEE, #102029, #EEEEEE, #EEEEEE, #DE4921";
+    color-active: "#EEEEEE, #102029, #EEEEEE, #EEEEEE, #DE4921";
+    color-urgent: "#EEEEEE, #102029, #EEEEEE, #EEEEEE, #DE4921";
+}
+

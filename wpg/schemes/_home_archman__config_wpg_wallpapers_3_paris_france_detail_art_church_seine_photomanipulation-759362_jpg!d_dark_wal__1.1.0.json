@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/3_paris_france_detail_art_church_seine_photomanipulation-759362.jpg!d",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1b150f",
+        "foreground": "#efe4c6",
+        "cursor": "#efe4c6"
+    },
+    "colors": {
+        "color0": "#1b150f",
+        "color1": "#7D8177",
+        "color2": "#D2A838",
+        "color3": "#A79360",
+        "color4": "#DDA261",
+        "color5": "#F2D660",
+        "color6": "#D8B58C",
+        "color7": "#efe4c6",
+        "color8": "#a79f8a",
+        "color9": "#7D8177",
+        "color10": "#D2A838",
+        "color11": "#A79360",
+        "color12": "#DDA261",
+        "color13": "#F2D660",
+        "color14": "#D8B58C",
+        "color15": "#efe4c6"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/david-van-dijk-3LTht2nxd34-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0b0b0a",
+        "foreground": "#e6e7e5",
+        "cursor": "#e6e7e5"
+    },
+    "colors": {
+        "color0": "#0b0b0a",
+        "color1": "#A1AA9F",
+        "color2": "#9DADA2",
+        "color3": "#A8B7AB",
+        "color4": "#B3C1B6",
+        "color5": "#BCCCC3",
+        "color6": "#D6D7D4",
+        "color7": "#e6e7e5",
+        "color8": "#a1a1a0",
+        "color9": "#A1AA9F",
+        "color10": "#9DADA2",
+        "color11": "#A8B7AB",
+        "color12": "#B3C1B6",
+        "color13": "#BCCCC3",
+        "color14": "#D6D7D4",
+        "color15": "#e6e7e5"
+    }
+}

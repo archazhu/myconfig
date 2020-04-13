@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/lock1.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#d9d5b9",
+        "foreground": "#010101",
+        "cursor": "#010101"
+    },
+    "colors": {
+        "color0": "#d9d5b9",
+        "color1": "#8F966F",
+        "color2": "#58AAA8",
+        "color3": "#D1BD7C",
+        "color4": "#13788B",
+        "color5": "#AFAA78",
+        "color6": "#199AB2",
+        "color7": "#0D3841",
+        "color8": "#bebaa2",
+        "color9": "#727f37",
+        "color10": "#278d8a",
+        "color11": "#af9339",
+        "color12": "#015c6d",
+        "color13": "#948b3a",
+        "color14": "#01778d",
+        "color15": "#010101"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/archman/.config/wpg/wallpapers/parrot",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040F12",
+        "foreground": "#92b7b5",
+        "cursor": "#92b7b5"
+    },
+    "colors": {
+        "color0": "#040F12",
+        "color1": "#2C5B5A",
+        "color2": "#2A615F",
+        "color3": "#1A5C62",
+        "color4": "#255C62",
+        "color5": "#1B666B",
+        "color6": "#2B6C6F",
+        "color7": "#92b7b5",
+        "color8": "#66807e",
+        "color9": "#2C5B5A",
+        "color10": "#2A615F",
+        "color11": "#1A5C62",
+        "color12": "#255C62",
+        "color13": "#1B666B",
+        "color14": "#2B6C6F",
+        "color15": "#92b7b5"
+    }
+}
